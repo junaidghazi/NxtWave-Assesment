@@ -13,7 +13,7 @@ export default function ThankYou() {
 
   const handleDelete = async () => {
     try {
-      await fetch(`http://localhost:3001/delete-account/${user.email}`, {
+      await fetch(`https://nxtwave-assesment.onrender.com/delete-account/${user.email}`, {
         method: "DELETE",
       });
       alert("Account deleted successfully.");

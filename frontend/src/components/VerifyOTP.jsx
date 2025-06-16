@@ -17,7 +17,7 @@ export default function VerifyOTP() {
     event.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:3001/verify-otp", {
+      const res = await axios.post("https://nxtwave-assesment.onrender.com/verify-otp", {
         email,
         otp: otpInput.trim(),
       });

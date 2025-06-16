@@ -227,5 +227,5 @@ app.delete('/delete-account/:email', async (req, res) => {
 
 // Start server
 app.listen(3001, () => {
-  console.log('Server listening on http://localhost:3001');
+  console.log('Server listening on https://nxtwave-assesment.onrender.com');
 });

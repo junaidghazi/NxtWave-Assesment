@@ -11,7 +11,7 @@ export default function Login() {
     event.preventDefault();
 
     try {
-      const result = await axios.post('http://localhost:3001/login', { email, password });
+      const result = await axios.post('https://nxtwave-assesment.onrender.com/login', { email, password });
 
       if (result.data.message === 'OTP generated and sent to your email.') {
         localStorage.setItem("otpEmail", email);

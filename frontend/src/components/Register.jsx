@@ -54,7 +54,7 @@ export default function Register() {
         formData.append(key, form[key]);
       }
 
-      const res = await axios.post("http://localhost:3001/register", formData, {
+      const res = await axios.post("https://nxtwave-assesment.onrender.com/register", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 

@@ -45,7 +45,7 @@ Go to the link below for installation if you don't have installed yet.
 
 3. Run the command `npm run dev` to start live server
 
-4. Click on `http://localhost:5173/`
+4. Click on `https://nxtwave-assesment-frontend.onrender.com/`
 
 - <h3>Backend
 
